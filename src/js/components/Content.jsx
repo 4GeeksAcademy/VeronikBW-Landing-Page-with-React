@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Jumbotron from './Jumbotron'
 import Card from './Card'
 
@@ -12,7 +12,7 @@ const Content = () => {
   return (
     <div className="container">
       <Jumbotron />
-      <div className="container-fluid row p-0">
+      <div className="row">
         {
           textLorem.map((item) => {
             return (
